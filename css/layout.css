@@ -13,6 +13,7 @@
    e. Portfolio Section
    f. Call To Action Section
    g. Testimonials Section
+   j. Achievements Section
    h. Contact Section
    i. Footer
 
@@ -52,7 +53,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -203,7 +204,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: whitesmoke;
 }
 #about .profile-pic {
    position: relative;
@@ -318,94 +319,144 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #008000b0;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
+.sharepoint {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: sharepoint 2s ease;
+  	-webkit-animation: sharepoint 2s ease;
 }
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+.azure {
+  	width: 75%;
+  	-moz-animation: msazure 2s ease;
+  	-webkit-animation: msazure 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.netcore {
+  	width: 75%;
+  	-moz-animation: netcore 2s ease;
+  	-webkit-animation: netcore 2s ease;
+}
+.devops {
+  	width: 75%;
+  	-moz-animation: devops 2s ease;
+  	-webkit-animation: devops 2s ease;
+}
+.spfx {
+   width: 80%;
+   -moz-animation: spfx 2s ease;
+   -webkit-animation: spfx 2s ease;
+}
+.angular {
+  	width: 65%;
+  	-moz-animation: angular 2s ease;
+  	-webkit-animation: angular 2s ease;
+}
+.react {
+  	width: 70%;
+  	-moz-animation: react 2s ease;
+  	-webkit-animation: react 2s ease;
+}
+.jsjQuery {
+   width: 80%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.python {
+   width: 60%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+.dsa {
+   width: 70%;
+   -moz-animation: dsa 2s ease;
+   -webkit-animation: dsa 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
+@-moz-keyframes sharepoint {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes msazure {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes netcore {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes devops {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes spfx {
   0%   { width: 0px;  }
   100% { width: 80%;  }
+}
+@-moz-keyframes angular {
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
+ }
+@-moz-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 @-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
 }
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+@-moz-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+@-moz-keyframes dsa {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
 }
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
+@-webkit-keyframes sharepoint {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes msazure {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes netcore {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes devops {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes spfx {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes angular {
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
+ }
+@-webkit-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
-
+@-webkit-keyframes jquery {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @-webkit-keyframes dsa {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -791,7 +842,7 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #a1a1a1;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -1004,3 +1055,54 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+/* ------------------------------------------------------------------ */
+/* j. Achievements Section
+/* ------------------------------------------------------------------ */
+
+#achievements {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#achievements a, #achievements a:visited  { color: #11ABB0; }
+#achievements a:hover, #achievements a:focus { color: #313131; }
+
+#achievements h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#achievements h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#achievements h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#achievements .header-col { padding-top: 9px; }
+#achievements .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#achievements .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#achievements .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#achievements .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* j. Achievements Section ends
